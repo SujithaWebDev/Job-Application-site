@@ -26,4 +26,4 @@ app.use("/public", express.static(path.join(__dirname, 'public')));
 //         res.render('thankyoupage')
 // })
 
-app.listen(4002);
+app.listen(10000);
