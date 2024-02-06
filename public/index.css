@@ -66,6 +66,10 @@ header button,.herocontentleft button,.herocontentleftform button{
     background-color: white;
     font-weight: 500;
 }
+.herocontentleft button{
+    padding: 10px;
+    width: 120px;
+}
 header button:hover,.herocontentleft button:hover,.herocontentleftform button:hover{
     background-color: black;
     color: white;
@@ -137,15 +141,10 @@ header button:hover,.herocontentleft button:hover,.herocontentleftform button:ho
     color: black;
 }
 footer{
-    background: url(./footerbg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 4px 0px;
-}
-.footercontent{
     background-color: black;
     color: white;
-    margin: 30px 0px;
+}
+.footercontent{
     padding: 16px 0px;
 }
 footer .links li{
@@ -169,6 +168,7 @@ footer h5{
 }
 .subscribe input{
     padding: 4px 16px;
+    border-radius: 6px;
 }
 /* form page */
 .headerandherobgform{
@@ -200,6 +200,9 @@ footer h5{
     width: 260px;
     height: 35px;
 }
+.formcontentdiv #expid{
+    width: 92%;
+}
 .formcontentdiv p{
     font-size: 22px;
     padding: 10px 0px;
@@ -209,7 +212,7 @@ form>div{
 }
 .formcontentdiv select{   
     padding: 5px;
-    width: 70%;
+    width: 97%;
     height: 38px;
 }
 .relocatediv input{
@@ -364,6 +367,12 @@ form>div{
     }
     .footercontent {
         padding: 16px 17px;
+    }
+    .formcontentdiv select {
+        width: 101%;
+    }
+    .formcontentdiv #expid {
+        width: 96%;
     }
     .formcontentdiv {
         width: 80%;
